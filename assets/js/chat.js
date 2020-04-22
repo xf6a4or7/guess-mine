@@ -1,6 +1,7 @@
 import getSocket from "./sockets";
 
 const messages = document.getElementById("jsMessages");
+
 const sendMsg = document.getElementById("jsSendMsg");
 
 const appendMsg = (text, nickname) => {
